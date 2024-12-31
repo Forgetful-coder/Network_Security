@@ -1,0 +1,6 @@
+[ 2024-12-31 10:43:42,355 ] 10 root - INFO - Data Ingestion Initiated
+[ 2024-12-31 10:43:45,194 ] 65 root - INFO - Initiating train_test_split
+[ 2024-12-31 10:43:45,195 ] 69 root - INFO - Done
+[ 2024-12-31 10:43:45,195 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2024-12-31 10:43:45,223 ] 81 root - INFO - Exported train and test data successfully
+[ 2024-12-31 10:43:45,223 ] 18 root - INFO - Data Ingestion Successful
