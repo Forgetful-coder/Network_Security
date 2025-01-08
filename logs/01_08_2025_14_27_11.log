@@ -1,0 +1,19 @@
+[ 2025-01-08 14:27:11,320 ] 13 root - INFO - Data Ingestion Initiated
+[ 2025-01-08 14:27:12,776 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-08 14:27:12,777 ] 69 root - INFO - Done
+[ 2025-01-08 14:27:12,777 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-08 14:27:12,805 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-08 14:27:12,805 ] 19 root - INFO - Data Ingestion Successful
+[ 2025-01-08 14:27:12,805 ] 20 root - INFO - Data Validation Initiated 
+[ 2025-01-08 14:27:12,805 ] 12 root - INFO - Reading yaml file
+[ 2025-01-08 14:27:12,808 ] 15 root - INFO - Content fetched successfully
+[ 2025-01-08 14:27:12,817 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-08 14:27:12,817 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-08 14:27:12,817 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-08 14:27:12,817 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-08 14:27:12,817 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-08 14:27:12,817 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-08 14:27:12,863 ] 99 root - INFO - Saving files to Valid Data Directory
+[ 2025-01-08 14:27:12,891 ] 106 root - INFO - Generating Data Validation Artifacts for no Data Drift
+[ 2025-01-08 14:27:12,891 ] 25 root - INFO - Data Validation Successful
+[ 2025-01-08 14:27:12,891 ] 26 root - INFO - Data Transformation Initiated

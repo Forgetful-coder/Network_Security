@@ -1,0 +1,24 @@
+[ 2025-01-08 14:30:36,937 ] 13 root - INFO - Data Ingestion Initiated
+[ 2025-01-08 14:30:38,366 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-08 14:30:38,367 ] 69 root - INFO - Done
+[ 2025-01-08 14:30:38,367 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-08 14:30:38,395 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-08 14:30:38,395 ] 19 root - INFO - Data Ingestion Successful
+[ 2025-01-08 14:30:38,395 ] 20 root - INFO - Data Validation Initiated 
+[ 2025-01-08 14:30:38,395 ] 12 root - INFO - Reading yaml file
+[ 2025-01-08 14:30:38,397 ] 15 root - INFO - Content fetched successfully
+[ 2025-01-08 14:30:38,408 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-08 14:30:38,408 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-08 14:30:38,408 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-08 14:30:38,408 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-08 14:30:38,408 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-08 14:30:38,408 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-08 14:30:38,460 ] 99 root - INFO - Saving files to Valid Data Directory
+[ 2025-01-08 14:30:38,487 ] 106 root - INFO - Generating Data Validation Artifacts for no Data Drift
+[ 2025-01-08 14:30:38,487 ] 25 root - INFO - Data Validation Successful
+[ 2025-01-08 14:30:38,487 ] 26 root - INFO - Data Transformation Initiated
+[ 2025-01-08 14:30:38,496 ] 50 root - INFO - Inputing Nan Values Process inititated
+[ 2025-01-08 14:30:38,496 ] 54 root - INFO - Process completed Successfully
+[ 2025-01-08 14:30:38,500 ] 51 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-08 14:30:38,502 ] 55 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-08 14:30:38,502 ] 31 root - INFO - Data Transformation Successful

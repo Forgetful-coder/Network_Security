@@ -42,4 +42,22 @@ DATA_VALIDATION_INVALID_DIR: str = 'Invalid_Data'
 DATA_VALDIATION_DRIFT_DIR: str = 'Data_Drift'
 DATA_VALDIATION_DRIFT_REPORT: str = 'report.yaml'
 
+"""
+Data Transformation related constant start with DATA_TRANSFORMATION VAR NAME
+"""
+DATA_TRANSFORMATION_DIR_NAME: str = "Data_Transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "Transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "Transformed_Object"
+
+## knn imputer to replace nan values
+DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {
+    "missing_values": np.nan,
+    "n_neighbors": 3,
+    "weights": "uniform",
+}
+DATA_TRANSFORMATION_TRAIN_FILE_PATH: str = "train.npy"
+
+DATA_TRANSFORMATION_TEST_FILE_PATH: str = "test.npy"
+PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+
 
