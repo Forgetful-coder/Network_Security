@@ -6,4 +6,6 @@ certifi
 scikit-learn
 pyaml
 dill
+mlflow
+dagshub
 ##-e .
