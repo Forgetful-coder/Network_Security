@@ -1,0 +1,29 @@
+[ 2025-01-11 14:15:16,836 ] 14 root - INFO - Data Ingestion Initiated
+[ 2025-01-11 14:15:18,290 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-11 14:15:18,291 ] 69 root - INFO - Done
+[ 2025-01-11 14:15:18,291 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-11 14:15:18,319 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-11 14:15:18,319 ] 20 root - INFO - Data Ingestion Successful
+[ 2025-01-11 14:15:18,319 ] 21 root - INFO - Data Validation Initiated 
+[ 2025-01-11 14:15:18,319 ] 13 root - INFO - Reading yaml file
+[ 2025-01-11 14:15:18,321 ] 16 root - INFO - Content fetched successfully
+[ 2025-01-11 14:15:18,330 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-11 14:15:18,330 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-11 14:15:18,330 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-11 14:15:18,331 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-11 14:15:18,331 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-11 14:15:18,331 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-11 14:15:18,379 ] 99 root - INFO - Saving files to Valid Data Directory
+[ 2025-01-11 14:15:18,406 ] 106 root - INFO - Generating Data Validation Artifacts for no Data Drift
+[ 2025-01-11 14:15:18,407 ] 26 root - INFO - Data Validation Successful
+[ 2025-01-11 14:15:18,407 ] 27 root - INFO - Data Transformation Initiated
+[ 2025-01-11 14:15:18,416 ] 50 root - INFO - Inputing Nan Values Process inititated
+[ 2025-01-11 14:15:18,416 ] 54 root - INFO - Process completed Successfully
+[ 2025-01-11 14:15:18,419 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-11 14:15:18,422 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-11 14:15:18,422 ] 32 root - INFO - Data Transformation Successful
+[ 2025-01-11 14:15:18,422 ] 33 root - INFO - Model Training stared
+[ 2025-01-11 14:15:33,660 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-11 14:15:33,667 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-11 14:15:33,667 ] 102 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/"01_2025_11_14_15_16"/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9917791535572922, precision_score=0.9906731549067316, recall_score=0.9928876244665719), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.973059911540008, precision_score=0.9672262190247801, recall_score=0.9789644012944984))
+[ 2025-01-11 14:15:33,668 ] 38 root - INFO - Model Training artifact created
