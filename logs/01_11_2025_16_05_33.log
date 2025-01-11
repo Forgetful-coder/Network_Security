@@ -1,0 +1,27 @@
+[ 2025-01-11 16:05:43,383 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[ 2025-01-11 16:05:43,571 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[ 2025-01-11 16:05:43,759 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 16:05:43,762 ] 107 dagshub - INFO - Accessing as Forgetful-coder
+[ 2025-01-11 16:05:43,967 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Forgetful-coder/Network_Security "HTTP/1.1 200 OK"
+[ 2025-01-11 16:05:44,130 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 16:05:44,144 ] 107 dagshub - INFO - Initialized MLflow to track repo "Forgetful-coder/Network_Security"
+[ 2025-01-11 16:05:44,144 ] 107 dagshub - INFO - Repository Forgetful-coder/Network_Security initialized!
+[ 2025-01-11 16:05:44,145 ] 14 root - INFO - Data Ingestion Initiated
+[ 2025-01-11 16:05:45,712 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-11 16:05:45,714 ] 69 root - INFO - Done
+[ 2025-01-11 16:05:45,714 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-11 16:05:45,741 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-11 16:05:45,742 ] 20 root - INFO - Data Ingestion Successful
+[ 2025-01-11 16:05:45,742 ] 21 root - INFO - Data Validation Initiated 
+[ 2025-01-11 16:05:45,742 ] 13 root - INFO - Reading yaml file
+[ 2025-01-11 16:05:45,744 ] 16 root - INFO - Content fetched successfully
+[ 2025-01-11 16:05:45,753 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-11 16:05:45,753 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-11 16:05:45,753 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-11 16:05:45,753 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-11 16:05:45,753 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-11 16:05:45,753 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-11 16:05:45,812 ] 118 root - INFO - Saving files to Invalid Data Directory
+[ 2025-01-11 16:05:45,857 ] 125 root - INFO - Generating Data Validation Artifacts for Data Drift
+[ 2025-01-11 16:05:45,857 ] 26 root - INFO - Data Validation Successful
+[ 2025-01-11 16:05:45,857 ] 27 root - INFO - Data Transformation Initiated

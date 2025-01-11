@@ -50,6 +50,7 @@ class DataTransformation:
             logging.info('Inputing Nan Values Process inititated')
             imputer = KNNImputer(**DATA_TRANSFORMATION_IMPUTER_PARAMS)
             processor = Pipeline([('imputer',imputer)])
+            save_object("final_model/preprocessor.pkl",processor)
 
             logging.info('Process completed Successfully')
             return processor
