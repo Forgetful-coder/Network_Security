@@ -1,0 +1,32 @@
+[ 2025-01-13 21:54:17,783 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-13 21:54:17,785 ] 107 dagshub - INFO - Accessing as Forgetful-coder
+[ 2025-01-13 21:54:17,977 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Forgetful-coder/Network_Security "HTTP/1.1 200 OK"
+[ 2025-01-13 21:54:18,128 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-13 21:54:18,129 ] 107 dagshub - INFO - Initialized MLflow to track repo "Forgetful-coder/Network_Security"
+[ 2025-01-13 21:54:18,130 ] 107 dagshub - INFO - Repository Forgetful-coder/Network_Security initialized!
+[ 2025-01-13 21:54:38,619 ] 42 root - INFO - Start data Ingestion
+[ 2025-01-13 21:54:40,130 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-13 21:54:40,131 ] 69 root - INFO - Done
+[ 2025-01-13 21:54:40,132 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-13 21:54:40,159 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-13 21:54:40,160 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(train_file_path='Artifacts/01_13_2025_21_54_16/data_ingestion/ingested/train.csv', test_file_path='Artifacts/01_13_2025_21_54_16/data_ingestion/ingested/test.csv')
+[ 2025-01-13 21:54:40,160 ] 13 root - INFO - Reading yaml file
+[ 2025-01-13 21:54:40,162 ] 16 root - INFO - Content fetched successfully
+[ 2025-01-13 21:54:40,162 ] 55 root - INFO - Initiate the data Validation
+[ 2025-01-13 21:54:40,170 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 21:54:40,170 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 21:54:40,170 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-13 21:54:40,170 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 21:54:40,171 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 21:54:40,171 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-13 21:54:40,211 ] 99 root - INFO - Saving files to Valid Data Directory
+[ 2025-01-13 21:54:40,239 ] 106 root - INFO - Generating Data Validation Artifacts for no Data Drift
+[ 2025-01-13 21:54:40,248 ] 50 root - INFO - Inputing Nan Values Process inititated
+[ 2025-01-13 21:54:40,248 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 21:54:40,249 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 21:54:40,249 ] 55 root - INFO - Process completed Successfully
+[ 2025-01-13 21:55:28,137 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 21:55:28,151 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 21:55:28,151 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 21:55:28,164 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 21:55:28,164 ] 125 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/01_13_2025_21_54_16/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9912849614916903, precision_score=0.9894800728302651, recall_score=0.9930964467005076), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9753933037515127, precision_score=0.9695268644747393, recall_score=0.9813311688311688))

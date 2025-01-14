@@ -1,0 +1,58 @@
+[ 2025-01-13 22:31:29,029 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-13 22:31:29,036 ] 107 dagshub - INFO - Accessing as Forgetful-coder
+[ 2025-01-13 22:31:29,239 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Forgetful-coder/Network_Security "HTTP/1.1 200 OK"
+[ 2025-01-13 22:31:29,383 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-13 22:31:29,383 ] 107 dagshub - INFO - Initialized MLflow to track repo "Forgetful-coder/Network_Security"
+[ 2025-01-13 22:31:29,383 ] 107 dagshub - INFO - Repository Forgetful-coder/Network_Security initialized!
+[ 2025-01-13 22:31:42,213 ] 42 root - INFO - Start data Ingestion
+[ 2025-01-13 22:31:43,739 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-13 22:31:43,740 ] 69 root - INFO - Done
+[ 2025-01-13 22:31:43,740 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-13 22:31:43,768 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-13 22:31:43,769 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(train_file_path='Artifacts/01_13_2025_22_31_27/data_ingestion/ingested/train.csv', test_file_path='Artifacts/01_13_2025_22_31_27/data_ingestion/ingested/test.csv')
+[ 2025-01-13 22:31:43,769 ] 13 root - INFO - Reading yaml file
+[ 2025-01-13 22:31:43,771 ] 16 root - INFO - Content fetched successfully
+[ 2025-01-13 22:31:43,771 ] 55 root - INFO - Initiate the data Validation
+[ 2025-01-13 22:31:43,780 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 22:31:43,780 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 22:31:43,780 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-13 22:31:43,780 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 22:31:43,781 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 22:31:43,781 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-13 22:31:43,845 ] 99 root - INFO - Saving files to Valid Data Directory
+[ 2025-01-13 22:31:43,873 ] 106 root - INFO - Generating Data Validation Artifacts for no Data Drift
+[ 2025-01-13 22:31:43,883 ] 50 root - INFO - Inputing Nan Values Process inititated
+[ 2025-01-13 22:31:43,883 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 22:31:43,883 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 22:31:43,883 ] 55 root - INFO - Process completed Successfully
+[ 2025-01-13 22:32:19,325 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 22:32:19,325 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 22:32:19,325 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 22:32:19,332 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 22:32:19,332 ] 125 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/01_13_2025_22_31_27/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.991343313983094, precision_score=0.989026620605568, recall_score=0.9936708860759493), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9762658227848101, precision_score=0.9724192277383766, recall_score=0.9801429706115965))
+[ 2025-01-13 22:38:14,461 ] 42 root - INFO - Start data Ingestion
+[ 2025-01-13 22:38:15,837 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-13 22:38:15,839 ] 69 root - INFO - Done
+[ 2025-01-13 22:38:15,839 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-13 22:38:15,868 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-13 22:38:15,868 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(train_file_path='Artifacts/01_13_2025_22_31_27/data_ingestion/ingested/train.csv', test_file_path='Artifacts/01_13_2025_22_31_27/data_ingestion/ingested/test.csv')
+[ 2025-01-13 22:38:15,869 ] 13 root - INFO - Reading yaml file
+[ 2025-01-13 22:38:15,871 ] 16 root - INFO - Content fetched successfully
+[ 2025-01-13 22:38:15,871 ] 55 root - INFO - Initiate the data Validation
+[ 2025-01-13 22:38:15,881 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 22:38:15,881 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 22:38:15,881 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-13 22:38:15,881 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 22:38:15,881 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 22:38:15,881 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-13 22:38:15,937 ] 99 root - INFO - Saving files to Valid Data Directory
+[ 2025-01-13 22:38:15,965 ] 106 root - INFO - Generating Data Validation Artifacts for no Data Drift
+[ 2025-01-13 22:38:15,975 ] 50 root - INFO - Inputing Nan Values Process inititated
+[ 2025-01-13 22:38:15,975 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 22:38:15,976 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 22:38:15,976 ] 55 root - INFO - Process completed Successfully
+[ 2025-01-13 22:39:00,358 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 22:39:00,358 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 22:39:00,358 ] 52 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-13 22:39:00,378 ] 56 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-13 22:39:00,378 ] 125 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/01_13_2025_22_31_27/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9905574169966495, precision_score=0.9884498480243161, recall_score=0.9926739926739927), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9806763285024155, precision_score=0.9814665592264303, recall_score=0.9798873692679002))

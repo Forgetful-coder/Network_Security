@@ -1,0 +1,40 @@
+[ 2025-01-13 21:24:53,635 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-13 21:24:53,637 ] 107 dagshub - INFO - Accessing as Forgetful-coder
+[ 2025-01-13 21:24:54,213 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Forgetful-coder/Network_Security "HTTP/1.1 200 OK"
+[ 2025-01-13 21:24:54,351 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-13 21:24:54,352 ] 107 dagshub - INFO - Initialized MLflow to track repo "Forgetful-coder/Network_Security"
+[ 2025-01-13 21:24:54,352 ] 107 dagshub - INFO - Repository Forgetful-coder/Network_Security initialized!
+[ 2025-01-13 21:27:46,996 ] 42 root - INFO - Start data Ingestion
+[ 2025-01-13 21:27:48,515 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-13 21:27:48,516 ] 69 root - INFO - Done
+[ 2025-01-13 21:27:48,516 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-13 21:27:48,545 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-13 21:27:48,545 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(train_file_path='Artifacts/"01_2025_13_21_24_50"/data_ingestion/ingested/train.csv', test_file_path='Artifacts/"01_2025_13_21_24_50"/data_ingestion/ingested/test.csv')
+[ 2025-01-13 21:27:48,545 ] 13 root - INFO - Reading yaml file
+[ 2025-01-13 21:27:48,547 ] 16 root - INFO - Content fetched successfully
+[ 2025-01-13 21:27:48,547 ] 55 root - INFO - Initiate the data Validation
+[ 2025-01-13 21:27:48,556 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 21:27:48,556 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 21:27:48,556 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-13 21:27:48,556 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 21:27:48,556 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 21:27:48,556 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-13 21:27:48,602 ] 99 root - INFO - Saving files to Valid Data Directory
+[ 2025-01-13 21:27:48,630 ] 106 root - INFO - Generating Data Validation Artifacts for no Data Drift
+[ 2025-01-13 21:27:56,624 ] 42 root - INFO - Start data Ingestion
+[ 2025-01-13 21:27:57,941 ] 65 root - INFO - Initiating train_test_split
+[ 2025-01-13 21:27:57,942 ] 69 root - INFO - Done
+[ 2025-01-13 21:27:57,942 ] 74 root - INFO - Exporting data to respective train and test file paths
+[ 2025-01-13 21:27:57,970 ] 81 root - INFO - Exported train and test data successfully
+[ 2025-01-13 21:27:57,970 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(train_file_path='Artifacts/"01_2025_13_21_24_50"/data_ingestion/ingested/train.csv', test_file_path='Artifacts/"01_2025_13_21_24_50"/data_ingestion/ingested/test.csv')
+[ 2025-01-13 21:27:57,970 ] 13 root - INFO - Reading yaml file
+[ 2025-01-13 21:27:57,972 ] 16 root - INFO - Content fetched successfully
+[ 2025-01-13 21:27:57,972 ] 55 root - INFO - Initiate the data Validation
+[ 2025-01-13 21:27:57,980 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 21:27:57,980 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 21:27:57,980 ] 87 root - INFO - Train DataFrame does not miss any columns
+[ 2025-01-13 21:27:57,980 ] 33 root - INFO - DataFrame must have 31 columns
+[ 2025-01-13 21:27:57,981 ] 34 root - INFO - DataFrame actually has 31
+[ 2025-01-13 21:27:57,981 ] 92 root - INFO - Test DataFrame does not miss any columns
+[ 2025-01-13 21:27:58,034 ] 99 root - INFO - Saving files to Valid Data Directory
+[ 2025-01-13 21:27:58,062 ] 106 root - INFO - Generating Data Validation Artifacts for no Data Drift

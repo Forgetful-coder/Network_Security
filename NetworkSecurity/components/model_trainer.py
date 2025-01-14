@@ -106,13 +106,13 @@ class ModelTrainer:
         self.track_mlflow(best_model,classification_test_metric)
 
 
-        preprocessor = load_object(file_path=self.data_transformation_artifact.transformed_object_file_path)
+        preprocessor = load_object(file_path='final_model/preprocessor.pkl')
             
         model_dir_path = os.path.dirname(self.model_trainer_config.trained_model_file_path)
         os.makedirs(model_dir_path,exist_ok=True)
 
         Network_Model=NetworkModel(preprocessor=preprocessor,model=best_model)
-        save_object(self.model_trainer_config.trained_model_file_path,obj=Network_Model)
+        save_object(self.model_trainer_config.trained_model_file_path,obj=NetworkModel)
 
         #model pusher
         save_object("final_model/model.pkl",best_model)
