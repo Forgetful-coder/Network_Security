@@ -1,0 +1,6 @@
+[ 2025-01-14 02:05:19,367 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-14 02:05:19,369 ] 107 dagshub - INFO - Accessing as Forgetful-coder
+[ 2025-01-14 02:05:19,554 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Forgetful-coder/Network_Security "HTTP/1.1 200 OK"
+[ 2025-01-14 02:05:19,693 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-14 02:05:19,695 ] 107 dagshub - INFO - Initialized MLflow to track repo "Forgetful-coder/Network_Security"
+[ 2025-01-14 02:05:19,695 ] 107 dagshub - INFO - Repository Forgetful-coder/Network_Security initialized!

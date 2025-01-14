@@ -18,7 +18,7 @@ TEST_FILE_NAME: str = "test.csv"
 SCHEMA_FILE_PATH = "/Users/aayushaggarwal/Desktop/mlops_tute/Network_security/data_schema/schema.yaml"
 
 SAVED_MODEL_DIR =os.path.join("saved_models")
-MODEL_FILE_NAME = "model.pkl"
+MODEL_FILE_NAME = 'model.pkl'
 
 """ 
 DATA INGESTED RELATED CONSTANT
@@ -71,6 +71,6 @@ MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
 MODEL_TRAINER_EXPECTED_SCORE: float = 0.7
 MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
 
-TRAINING_BUCKET_NAME = "networksecurity"
+TRAINING_BUCKET_NAME = "networksecurity243"
 
 
