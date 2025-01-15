@@ -57,11 +57,10 @@ jobs:
                 docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
                 echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
     Continuous-Deployment:
-        name: Continuous Deployment
         needs: build-and-push-ecr-image 
         runs-on: self-hosted     
         steps:
-            - name: Checkout Code
+            - name: Checkout
               uses: actions/checkout@v3
 
             - name: Configure AWS Credentials
@@ -78,10 +77,7 @@ jobs:
               id: login-ecr
               uses: aws-actions/amazon-ecr-login@v1
             
-            - name: Debug ECR Details
-              run: |
-                  echo "ECR Login URI: ${{secrets.AWS_ECR_LOGIN_URI}}"
-                  echo "ECR Repository Name: ${{secrets.ECR_REPOSITORY_NAME}}"
+
             
             - name: Pull latest Images
               run: |
